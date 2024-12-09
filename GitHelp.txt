@@ -1,0 +1,23 @@
+
+Команды которые пишутся один раз на один Ноут или ПК
+
+1) git config --global user.name "Your Name"
+2) git config --global user.email "your@email"
+
+Команды которые пишутся один раз на проект
+1) git init
+2) git remote add origin ваша ссылка
+
+Команды которые пишутся часто
+1) git status ---- показывает статус проекта
+2) git add . ---- добавляет изменения в буфер
+3) git commit -m "комментарий" ---- создает коммит ( Сохраняет изменения )
+4) git branch ---- показывает ветки атак же показыввает текущую ветку
+5) git push origin master ---- отправляет изменения на github
+
+
+Удаление папки с файлами
+git rm -r .idea
+git commit -m "Delete: уалили папку .idea"
+
+Сооздаете файл  git .gitignore
