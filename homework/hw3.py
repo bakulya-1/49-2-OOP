@@ -39,4 +39,3 @@ Joker = Jester("Джокер", 100, 50)
 Joker.action()
 Joker.unique_attack()
 Joker.unique_scream()
-
