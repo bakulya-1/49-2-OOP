@@ -2,7 +2,7 @@
 Команды которые пишутся один раз на один Ноут или ПК
 
 1) git config --global user.name "Your Name"
-2) git config --global user.email "your@email"
+2) git config __global user.email ""
 
 Команды которые пишутся один раз на проект
 1) git init
