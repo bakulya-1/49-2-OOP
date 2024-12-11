@@ -12,12 +12,33 @@
 1) git status ---- показывает статус проекта
 2) git add . ---- добавляет изменения в буфер
 3) git commit -m "комментарий" ---- создает коммит ( Сохраняет изменения )
-4) git branch ---- показывает ветки атак же показыввает текущую ветку
+4) git branch ---- показывает ветки атак же показывает текущую ветку
 5) git push origin master ---- отправляет изменения на github
+6) git branch name --- создает ветку
+   git branch -b name --- создает ветку с текущей ветки
+7) git checkout name --- переключает на ветку
 
 
 Удаление папки с файлами
 git rm -r .idea
-git commit -m "Delete: уалили папку .idea"
+git commit -m "Delete: удалили папку .idea"
 
-Сооздаете файл  git .gitignore
+Команда гита для клонирования чужого Репозитория
+git clone link
+
+
+
+Создаете файл  git .gitignore
+
+
+python3 -
+py      - -m venv venv
+python  -
+
+
+source name/bin/activate - Linux
+venv\Scripts\activate - Windows
+
+
+#диактивировать
+deactivate venv - Linux, Mak, Window
