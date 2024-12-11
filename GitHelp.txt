@@ -39,6 +39,5 @@ python  -
 source name/bin/activate - Linux
 venv\Scripts\activate - Windows
 
-
 #диактивировать
 deactivate venv - Linux, Mak, Window
