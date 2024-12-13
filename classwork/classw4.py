@@ -40,5 +40,3 @@ print(Style.RESET_ALL)
 
 #from requests import get, post, put, delete
 
-
-from requests import  get, post, put, delete
