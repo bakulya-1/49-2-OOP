@@ -17,6 +17,7 @@
 6) git branch name --- создает ветку
    git branch -b name --- создает ветку с текущей ветки
 7) git checkout name --- переключает на ветку
+   git swetch
 
 
 Удаление папки с файлами
@@ -35,9 +36,13 @@ python3 -
 py      - -m venv venv
 python  -
 
-
+Создание виртуальной среды
 source name/bin/activate - Linux
 venv\Scripts\activate - Windows
 
-#диактивировать
+#деактивировать
 deactivate venv - Linux, Mak, Window
+
+Для слияния веток
+git merge name --- слияние ветки которую вы хотите сделать с текущей ветки
+git pull origin name --- слияние ветки которую вы хотите с текущей веткой
