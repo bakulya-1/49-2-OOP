@@ -18,6 +18,12 @@
    git branch -b name --- создает ветку с текущей ветки
 7) git checkout name --- переключает на ветку
    git swetch
+8) git restore путь к файлу ---- восстанавливает изменения до последнего коммита
+9) git reset путь к файлу ---- Сбрасывает то что находится в буфере
+10) git rebase -i HEAD~2 ---- Просмотр спсика коммитов и возможность ручного удаления коммитов
+11) git rebase --edit-todo ---- Продолжения редактирования коммитов
+12) git rebase --continue ---- Продолжения редактирования коммитов
+
 
 
 Удаление папки с файлами
@@ -25,11 +31,12 @@ git rm -r .idea
 git commit -m "Delete: удалили папку .idea"
 
 Команда гита для клонирования чужого Репозитория
-git clone link
+git clone link #  git clone https://github.com/arzy-49-2/OOP-49-2
 
 
 
-Создаете файл  git .gitignore
+Создаете файл
+git .gitignore
 
 
 python3 -

@@ -1,8 +1,9 @@
 #Базы данных. Git
 
-import  sqlite3
 
-connect =sqlite3.connect('users.db')
+import sqlite3
+
+connect = sqlite3.connect('users.db')
 cursor = connect.cursor()
 
 
