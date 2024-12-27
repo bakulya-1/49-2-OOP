@@ -74,7 +74,7 @@ def get_all_users():
         print("Список пользователей пуст")
 
 
-# get_all_users()
+ #get_all_users()
 
 def get_user_by_age(age):
     cursor.execute('SELECT * FROM users WHERE age = ?', (age,))
